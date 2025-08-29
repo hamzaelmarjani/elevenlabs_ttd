@@ -20,9 +20,9 @@ A type-safe, async Rust client for the [ElevenLabs Text-to-Dialogue API](https:/
 **This project is part of a milestone to implement all ElevenLabs APIs in Rust.**
 
 - **[Elevenlabs TTS](https://crates.io/crates/elevenlabs_tts)**: ElevenLabs Text-to-Speech API. ✅
+- **[Elevenlabs TTD](https://crates.io/crates/elevenlabs_ttd)**: ElevenLabs Text-to-Dialogue API. ✅
+- **[Elevenlabs STT](https://crates.io/crates/elevenlabs_stt)**: ElevenLabs Speech-to-Text API. ✅
 - **[Elevenlabs SFX](https://crates.io/crates/elevenlabs_sfx)**: ElevenLabs Sound Effects API. ✅
-- **[Elevenlabs STT](https://crates.io/crates/elevenlabs_stt)**: ElevenLabs Speech To Text API. ✅
-- **[Elevenlabs TTD](https://crates.io/crates/elevenlabs_ttd)**: ElevenLabs Speech To Dialogue API. ✅
 - **Elevenlabs TTV**: ElevenLabs Text To Voice API. ⏳
 - **Elevenlabs VC**: ElevenLabs Voice Changer API. ⏳
 - **Elevenlabs CM**: ElevenLabs Music Compose API. ⏳
