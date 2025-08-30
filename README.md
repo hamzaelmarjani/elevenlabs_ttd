@@ -23,8 +23,8 @@ A type-safe, async Rust client for the [ElevenLabs Text-to-Dialogue API](https:/
 - **[Elevenlabs TTD](https://crates.io/crates/elevenlabs_ttd)**: ElevenLabs Text-to-Dialogue API. ✅
 - **[Elevenlabs STT](https://crates.io/crates/elevenlabs_stt)**: ElevenLabs Speech-to-Text API. ✅
 - **[Elevenlabs SFX](https://crates.io/crates/elevenlabs_sfx)**: ElevenLabs Sound Effects API. ✅
+- **[Elevenlabs VC](https://crates.io/crates/elevenlabs_vc)**: ElevenLabs Voice Changer API. ✅
 - **Elevenlabs TTV**: ElevenLabs Text-to-Voice API. ⏳
-- **Elevenlabs VC**: ElevenLabs Voice Changer API. ⏳
 - **Elevenlabs CM**: ElevenLabs Music Compose API. ⏳
 - **Elevenlabs AUI**: ElevenLabs Audio Isolation API. ⏳
 - **Elevenlabs DUB**: ElevenLabs Dubbing API. ⏳
@@ -35,7 +35,7 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-elevenlabs_ttd = "0.0.1"
+elevenlabs_ttd = "0.0.2"
 ```
 
 ## Quick Start
@@ -103,7 +103,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 ### Advanced Configuration
 
 ```rust
-use elevenlabs_ttd::{ElevenLabsTTDClient, VoiceSettings, models, voices};
+use elevenlabs_ttd::{ElevenLabsTTDClient, models, voices};
 use std::env;
 
 #[tokio::main]
